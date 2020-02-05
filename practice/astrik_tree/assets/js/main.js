@@ -1,6 +1,6 @@
 var tree = {
   mainString: "*",
-  howManyRows: 1,
+  howManyRows: 20,
   spaces: 0,
   astriks: 0,
   shiftValues: function () {
@@ -31,3 +31,5 @@ var tree = {
     this.makeTree(this.howManyRows);
   },
 }
+
+tree.generateTree();
