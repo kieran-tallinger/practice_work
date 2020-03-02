@@ -7,3 +7,8 @@ function addOddToN(n) {
   }
   return sum;
 }
+
+function addOddToN2(n) {
+  if (n === 1) return 1
+  return n + addOddToN2(n - 2)
+}
